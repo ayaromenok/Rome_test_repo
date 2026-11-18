@@ -1,0 +1,17 @@
+ Session Info
+
+ File: /home/pi/.pi/agent/sessions/--home-pi-projects-tests-Rome_test_repo-qwen38_27B-Q3_K_XL__tensor--/2026-11-18T00-44-11-243Z_01a1ec1c-7864-7543-a514-d5bf183108e6.jsonl
+ ID: 01a1ec1c-7864-7543-a514-d5bf183108e6
+
+ Messages
+ Total: 95
+ User: 3
+ Assistant: 42
+ Tools: 49 calls, 49 results
+
+ Tokens
+ Input: 1,543,277
+   Cached: 1,518,461 (98.4%)
+   Uncached: 24,816
+ Output: 55,629
+ Total: 1,598,906
