@@ -1,0 +1,6 @@
+Create a three.jp game where is possible to walk in ancient Rome. 
+Use separate JavaScript file for temples, colliseum, circuses, including Maximus, public bathes, walls, gates, buildings, obelisc, colums, triumph archs, aqueducs, fountains,  villas and roads. Add historically accurate terrain with river Tiber and 7 hills. 
+
+Use Rome city text description in  ../../input/* as reference for city plan, buildings, terrains etc. Add bird(flying over city) mode. Create overlay UI on righ-bottom corner with controls for mouse(also as separate file).
+
+Run a small web-server on local computer (Use address 192.168.1.103 and port 7999)
