@@ -1,0 +1,89 @@
+/* Roma Aeterna — overlay UI styles (bottom-right corner) */
+html, body {
+  margin: 0; padding: 0;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+canvas { display: block; }
+
+.rome-ui {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 240px;
+  background: linear-gradient(180deg, rgba(38, 30, 20, 0.88), rgba(24, 19, 12, 0.92));
+  border: 1px solid #c9a227;
+  border-radius: 10px;
+  color: #f0e6c8;
+  padding: 12px 14px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+  z-index: 100;
+  user-select: none;
+}
+.rome-ui-title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffd75e;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.5);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 2px #000;
+}
+.rome-ui-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0;
+}
+.ui-btn {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.6);
+  color: #e8dcb8;
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.ui-btn:hover { background: rgba(201, 162, 39, 0.25); }
+.ui-btn.active {
+  background: #c9a227;
+  color: #1c150c;
+  font-weight: bold;
+}
+.ui-label {
+  font-size: 12px;
+  color: #cbbd93;
+  min-width: 40px;
+}
+#ui-speed { flex: 1; accent-color: #c9a227; }
+#ui-speed-val {
+  font-size: 12px;
+  min-width: 22px;
+  text-align: right;
+}
+.ui-help {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.ui-helpbox {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ddd2b0;
+}
+.ui-helpbox.open { max-height: 320px; margin-top: 6px; }
+.ui-helpbox b { color: #ffd75e; display: block; margin-top: 4px; }
+.ui-helpbox ul {
+  margin: 2px 0 6px 14px;
+  padding: 0;
+  list-style: none;
+}
+.ui-helpbox li::before { content: '◆ '; color: #c9a227; font-size: 9px; }
