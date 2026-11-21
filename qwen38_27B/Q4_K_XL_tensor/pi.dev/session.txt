@@ -1,0 +1,20 @@
+ Session Info                                                                                                
+                                                                                                             
+ File:                                                                                                       
+ /home/az/.pi/agent/sessions/--home-az-projects-tests-Rome_test_repo-qwen38_27B-Q4_K_XL_tensor--/2026-11-18T 
+ 14-27-27-181Z_01a1ef0e-314c-76a1-99fd-e30718308afe.jsonl                                                    
+ ID: 01a1ef0e-314c-76a1-99fd-e30718308afe                                                                    
+                                                                                                             
+ Messages                                                                                                    
+ Total: 93                                                                                                   
+ User: 1                                                                                                     
+ Assistant: 36                                                                                               
+ Tools: 55 calls, 55 results                                                                                 
+                                                                                                             
+ Tokens                                                                                                      
+ Input: 1,895,920                                                                                            
+   Cached: 1,880,241 (99.2%)                                                                                 
+   Uncached: 15,679                                                                                          
+ Output: 65,772                                                                                              
+ Total: 1,961,692                                                                                            
+                    
